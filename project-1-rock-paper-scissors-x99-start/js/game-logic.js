@@ -72,9 +72,6 @@ const getRoundWinner = (round) => {
 //NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 //NAAAAAAAAAAAAAAAA33333333333333
 // JULLIE 4
-<<<<<<< HEAD
 // jojo
-=======
 //jojo
->>>>>>> 5b37c29f0da3fdb3e427966ceef113e386df2ebe
 // jullie 5
