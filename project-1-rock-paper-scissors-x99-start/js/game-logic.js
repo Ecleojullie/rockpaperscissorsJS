@@ -1,9 +1,6 @@
 // All code should be written in this file.
 
 
-// NATHAN HERE
-// Jullie HERE
-// Nathan here
 var playerOneMoveOneType;
 var playerOneMoveTwoType;
 var playerOneMoveThreeType;
@@ -63,15 +60,3 @@ const getRoundWinner = (round) => {
     } 
 
 }
-
-// jullie cute HERE
-// another 
-
-//NATHAN CUTIE HERE
-
-//NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-//NAAAAAAAAAAAAAAAA33333333333333
-// JULLIE 4
-// jojo
-//jojo
-// jullie 5
