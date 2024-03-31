@@ -40,7 +40,10 @@ const setPlayerMoves = (player, moveOneType, moveOneValue, moveTwoType, moveTwoV
 
 const getRoundWinner = (round) => {
     if (playerOneMoveOneType === "rock" && playerTwoMoveOneType === "rock") {
-        return "Tie" 
+        if (playerOneMoveOneValue > playerTwoMoveOneValue){
+            return "player one"
+        } 
+        return "player two"
     } else if (playerOneMoveOneType === "rock" && playerTwoMoveOneType === "paper") {
         return "Player Two" 
     } else if (playerOneMoveOneType === "rock" && playerTwoMoveOneType === "scissors") {
@@ -48,7 +51,10 @@ const getRoundWinner = (round) => {
     } else if (playerOneMoveOneType === "paper" && playerTwoMoveOneType === "rock") {
         return "Player One" 
     } else if (playerOneMoveOneType === "paper" && playerTwoMoveOneType === "paper") {
-        return "Tie" 
+        if (playerOneMoveTwoValue > playerTwoMoveTwoValue){
+            return "player one"
+        } 
+        return "player two"
     } else if (playerOneMoveOneType === "paper" && playerTwoMoveOneType === "scissors") {
         return "Player Two"
     } else if (playerOneMoveOneType === "scissors" && playerTwoMoveOneType === "rock") {
@@ -56,7 +62,11 @@ const getRoundWinner = (round) => {
     } else if (playerOneMoveOneType === "scissors" && playerTwoMoveOneType === "paper") {
         return "Player One" 
     } else if (playerOneMoveOneType === "scissors" && playerTwoMoveOneType === "scissors") {
-        return "Tie"
+        if (playerOneMoveThreeValue > playerTwoMoveThreeValue){
+            return "player one"
+        } 
+        return "player two"
     } 
+    // same type higher value wins
 
 }
